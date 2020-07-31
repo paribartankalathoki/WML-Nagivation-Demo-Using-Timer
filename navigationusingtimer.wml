@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.2//EN"
+"http://www.wapforum.org/DTD/wml12.dtd">
+
+<wml>
+
+<card border="1" id="firstcard" title="Welcome to First Card">
+  <onevent type="ontimer">
+    <go href="#secondCard"/>
+  </onevent>
+  <timer value="150"/>
+<p align="center" style="color: red;">
+Welcome to first screen.
+<br />
+This is the testing done by paribartan for the initial screen.
+<br />
+  <a href="#secondCard">Skip this</a>
+</p>
+</card>
+
+<card id="secondCard" title="Welcome to Second Card">
+<p align="center" style= "color: green;">
+Welcome to the second screen. 
+<br />
+This is the another testing done by paribartan for the second screen.
+</p>
+</card>
+
+</wml>
